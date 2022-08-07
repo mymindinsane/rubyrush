@@ -1,11 +1,11 @@
-if (rand(11)==10)
+if (rand(0..10)==10)
   puts "Выпало ребро"
-  else
-if (rand(2)==1)
-  puts"Выпал орёл"
 else
-  puts "Выпала решка"
-end
+  if (rand(0..1)==1)
+    puts"Выпал орёл"
+  else
+    puts "Выпала решка"
   end
+end
 
 
