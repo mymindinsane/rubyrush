@@ -16,5 +16,7 @@ elsif (choice==2)
        usd_amount=gets.to_f
        total=(usd_amount*usd_rate).round(2)
        puts "У вас будет "+ total.to_s + " бел.рублей"
-end
+else
+  puts "Такого выбора не предусмотрено"
+  end
 
