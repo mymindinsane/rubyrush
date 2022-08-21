@@ -6,6 +6,3 @@ number2=gets.to_i
 puts"Второе число: " +number2.to_s
 average=(number1+number2)/2
 puts"Среднее: " +average.to_s
-
-
-
