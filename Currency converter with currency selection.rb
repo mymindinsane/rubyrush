@@ -4,11 +4,11 @@ puts "Какая у вас сейчас на руках валюта
 choice=gets.chomp
 if (choice=="1")
   puts "Сколько сейчас стоит один бел. рубль?"
-byn_rate=gets.to_f
-puts "Сколько у вас сейчас бел. рублей?"
-byn_amount=gets.to_f
-total=(byn_amount*byn_rate).round(2)
-puts "У вас будет "+ total.to_s + "$"
+  byn_rate=gets.to_f
+  puts "Сколько у вас сейчас бел. рублей?"
+  byn_amount=gets.to_f
+  total=(byn_amount*byn_rate).round(2)
+  puts "У вас будет "+ total.to_s + "$"
 elsif (choice=="2")
        puts "Сколько сейчас стоит один доллар?"
        usd_rate=gets.to_f
@@ -18,5 +18,5 @@ elsif (choice=="2")
        puts "У вас будет "+ total.to_s + " бел.рублей"
 else
   puts "Такого выбора не предусмотрено"
-  end
+end
 
