@@ -1,7 +1,7 @@
 array=[1,2,3,4,5,6,7,8,9,10,11,12]
 puts "Ваш изначальный массив:" + array.to_s
 puts "Сколько первых элементов вы хотите отрезать?"
-userInput=gets.to_i
+userInput=STDIN.gets.to_i
 def slicer (array,number)
   newArray=[]
   counter=0
